@@ -9,7 +9,7 @@ from PIL import Image
 
 
 
-pickle_in = open("C:/Users/shrut.LAPTOP-L053UU4V/django-proj/Datahack/classifier1.pkl","rb")
+pickle_in = open("classifier1.pkl","rb")
 classifier=pickle.load(pickle_in)
 from sklearn import preprocessing
 def convert(data):
